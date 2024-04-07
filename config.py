@@ -29,7 +29,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 AUTO_GCAST = getenv("AUTO_GCAST","True")
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
-PROMO = getenv("PROMO","https://graph.org/file/876eee7413536f03c5245.jpg")
+PROMO = getenv("PROMO","https://graph.org/file/35fd3ecb6af31959867b2.jpg")
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
@@ -49,7 +49,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://graph.org/file/5d14da1b30fa23689faff.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
